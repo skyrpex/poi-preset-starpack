@@ -1,0 +1,28 @@
+{
+	"name": "poi-preset-starpack",
+	"version": "1.0.0",
+	"description": "Starpack's Poi preset",
+	"license": "MIT",
+	"repository": "skyrpex/poi-preset-starpack",
+	"author": {
+		"name": "Cristian Pallarés",
+		"email": "cristian@pallares.io",
+		"url": "pallares.io"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [],
+	"dependencies": {
+		"@skyrpex/manifest-webpack-plugin": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.19.1"
+	}
+}
